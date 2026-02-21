@@ -58,22 +58,35 @@ pyspellchecker – Spell correction & suggestions
 
 # 📁 Project Structure
 sign_language_recognition/
+
 │
 ├── landmark_data/
+
 │   ├── A.csv
+
 │   ├── B.csv
+
 │   └── ... Z.csv
+
 │
 ├── model/
+
 │   └── landmark_model.h5
+
 │
 ├── collect_landmarks.py
+
 ├── train_landmark_model.py
+
 ├── realtime_landmark_detection.py
+
 ├── requirements.txt
+
 ├── words_log.txt
+
 └── README.md
-⚙️ Installation
+
+# ⚙️ Installation
 pip install opencv-python mediapipe tensorflow numpy pandas pyttsx3 pyspellchecker
 
 # 🚀 How to Run the Project
