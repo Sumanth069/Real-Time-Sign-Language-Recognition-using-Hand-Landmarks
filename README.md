@@ -1,10 +1,10 @@
-🖐️ Real-Time Sign Language Recognition (Landmark-Based)
+# 🖐️ Real-Time Sign Language Recognition (Landmark-Based)
 
 A real-time sign language recognition system that converts hand gestures (A–Z) into text using MediaPipe hand landmarks and a deep learning model, enhanced with spell correction and intelligent word suggestions.
 
 This project is stable, accurate, and demo/viva-ready, designed as a major-project-level implementation.
 
-✨ Features
+# ✨ Features
 
 ✅ Real-time recognition of A–Z hand signs
 
@@ -26,7 +26,7 @@ This project is stable, accurate, and demo/viva-ready, designed as a major-proje
 
 ✅ Clean, professional UI overlay
 
-🧠 Why Landmark-Based?
+# 🧠 Why Landmark-Based?
 
 Instead of using raw images, this project uses MediaPipe hand landmarks, which makes the system:
 
@@ -40,7 +40,7 @@ Much more stable in real time
 
 This approach is commonly used in production-level gesture recognition systems.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Python 3.9+
 
@@ -56,7 +56,7 @@ pyttsx3 – Text-to-speech
 
 pyspellchecker – Spell correction & suggestions
 
-📁 Project Structure
+# 📁 Project Structure
 sign_language_recognition/
 │
 ├── landmark_data/
@@ -75,7 +75,8 @@ sign_language_recognition/
 └── README.md
 ⚙️ Installation
 pip install opencv-python mediapipe tensorflow numpy pandas pyttsx3 pyspellchecker
-🚀 How to Run the Project
+
+# 🚀 How to Run the Project
 1️⃣ Collect Landmark Data
 
 Capture hand landmarks for each letter:
@@ -108,7 +109,8 @@ ENTER	Save current word
 BACKSPACE	Delete last letter
 S	Speak the word
 Q	Quit application
-📝 Output
+
+# 📝 Output
 
 words_log.txt
 Stores all finalized words, one per line
