@@ -118,17 +118,17 @@ python realtime_landmark_detection.py
 # 🎮 Controls
 Key	          Action
 
-SPACE	        Confirm detected letter
+SPACE	     ----   Confirm detected letter
 
-TAB	          Accept suggested word
+TAB	     ----     Accept suggested word
 
-ENTER	        Save current word
+ENTER	   ----     Save current word
 
-BACKSPACE	    Delete last letter
+BACKSPACE	 ----   Delete last letter
 
-S	            Speak the word
+S	        ----    Speak the word
 
-Q	            Quit application
+Q	       ----     Quit application
 
 # 📝 Output
 
