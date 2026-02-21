@@ -114,14 +114,21 @@ Model saved as: model/landmark_model.h5
 
 3️⃣ Run Real-Time Detection
 python realtime_landmark_detection.py
-🎮 Controls
-Key	Action
-SPACE	Confirm detected letter
-TAB	Accept suggested word
-ENTER	Save current word
-BACKSPACE	Delete last letter
-S	Speak the word
-Q	Quit application
+
+# 🎮 Controls
+Key	          Action
+
+SPACE	        Confirm detected letter
+
+TAB	          Accept suggested word
+
+ENTER	        Save current word
+
+BACKSPACE	    Delete last letter
+
+S	            Speak the word
+
+Q	            Quit application
 
 # 📝 Output
 
